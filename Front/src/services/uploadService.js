@@ -32,7 +32,7 @@ const uploadImage = async (file, categoria) => {
 // Función para obtener las imágenes de una categoría
 const fetchImages = async (categoria) => {
   try {
-    const response = await fetch(`${API_URL}/upload/imagenes/${categoria}`);
+    const response = await fetch(`${API_URL}/api/upload/imagenes/${categoria}`);
 
 
     if (!response.ok) {

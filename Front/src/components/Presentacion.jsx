@@ -14,7 +14,7 @@ function Presentacion({imagen, titulo, texto}) {
 
         <article className={`texto ${darkMode ? 'dark-mode' : ''}`}>
             <h1>{titulo}</h1>
-            <p>{texto}</p>
+            {texto}
         </article>
     </section>
   )
